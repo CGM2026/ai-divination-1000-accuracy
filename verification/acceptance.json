@@ -1,0 +1,133 @@
+{
+  "status": "static-check",
+  "date": "2026-10-15",
+  "python": "3.12.14",
+  "platform": "Windows",
+  "clean_zip_extraction": true,
+  "commands": [
+    {
+      "command": "python lab.py verify-package",
+      "exit_code": 0
+    },
+    {
+      "command": "python tools/check_release.py",
+      "exit_code": 0
+    },
+    {
+      "command": "python -m unittest discover -s tests -v",
+      "exit_code": 0
+    },
+    {
+      "command": "python lab.py reproduce --output runs/reproduced",
+      "exit_code": 0
+    },
+    {
+      "command": "python lab.py demo --root runs/offline-demo",
+      "exit_code": 0
+    }
+  ],
+  "tests_passed": 8,
+  "external_model_calls": 0,
+  "model_api_check": "mocked contract only",
+  "statistics": {
+    "pilot_all": {
+      "cards": {
+        "n": 100,
+        "correct": 65,
+        "accuracy": 0.65,
+        "wilson95": [
+          0.5525444329688796,
+          0.7363575175690247
+        ],
+        "brier": 0.216487
+      },
+      "no_cards": {
+        "n": 100,
+        "correct": 69,
+        "accuracy": 0.69,
+        "wilson95": [
+          0.5937394428051057,
+          0.7722030278762395
+        ],
+        "brier": 0.2026
+      },
+      "outcome_yes": 53,
+      "majority_reference": 0.53,
+      "both_correct": 58,
+      "both_wrong": 24,
+      "cards_only_correct": 7,
+      "no_cards_only_correct": 11,
+      "accuracy_difference": -0.04,
+      "mcnemar_exact_two_sided": 0.480682373046875
+    },
+    "pilot_holdout": {
+      "cards": {
+        "n": 40,
+        "correct": 26,
+        "accuracy": 0.65,
+        "wilson95": [
+          0.49505880837257693,
+          0.7786547112682372
+        ],
+        "brier": 0.2046525
+      },
+      "no_cards": {
+        "n": 40,
+        "correct": 29,
+        "accuracy": 0.725,
+        "wilson95": [
+          0.5716504419378943,
+          0.8389198375233267
+        ],
+        "brier": 0.18222
+      },
+      "outcome_yes": 21,
+      "majority_reference": 0.525,
+      "both_correct": 25,
+      "both_wrong": 10,
+      "cards_only_correct": 1,
+      "no_cards_only_correct": 4,
+      "accuracy_difference": -0.075,
+      "mcnemar_exact_two_sided": 0.375
+    },
+    "evaluation_1000": {
+      "cards": {
+        "n": 1000,
+        "correct": 704,
+        "accuracy": 0.704,
+        "wilson95": [
+          0.6749696568758727,
+          0.7314690256620207
+        ],
+        "brier": 0.19824930000000002
+      },
+      "no_cards": {
+        "n": 1000,
+        "correct": 691,
+        "accuracy": 0.691,
+        "wilson95": [
+          0.6616750359751813,
+          0.7188631422833365
+        ],
+        "brier": 0.1974422
+      },
+      "outcome_yes": 538,
+      "majority_reference": 0.538,
+      "both_correct": 651,
+      "both_wrong": 256,
+      "cards_only_correct": 53,
+      "no_cards_only_correct": 40,
+      "accuracy_difference": 0.013,
+      "mcnemar_exact_two_sided": 0.213153000968908
+    },
+    "verification": {
+      "package_files": 155,
+      "exploration_rounds": 834,
+      "teaching_cases": 40,
+      "hashes": "pass",
+      "historical_freeze": "pass",
+      "draws": "pass"
+    }
+  },
+  "github_workflow": "configured for Python 3.10/3.13; remote execution not yet run"
+}

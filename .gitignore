@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+runs/
+.env
+.env.*
+!.env.example
+*model-config.json
+!.github/
+.venv/
+verification/local-*/

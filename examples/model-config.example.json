@@ -1,0 +1,15 @@
+{
+  "provider": {
+    "endpoint": "https://example.invalid/v1/chat/completions",
+    "model": "YOUR_MODEL_ID",
+    "api_key_env": "MODEL_API_KEY",
+    "temperature": 0.2,
+    "max_tokens": 6000,
+    "timeout": 45
+  },
+  "roles": {
+    "author": {"model": "YOUR_AUTHOR_MODEL"},
+    "cards": {"model": "YOUR_CARDS_MODEL"},
+    "no_cards": {"model": "YOUR_BASELINE_MODEL"}
+  }
+}

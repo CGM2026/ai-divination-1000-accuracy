@@ -1,0 +1,834 @@
+{
+  "export_date": "2026-10-15",
+  "source_root": "historical experiment workspace (not distributed)",
+  "policy": "Allow-listed research files only. Workspace/user paths and local session identifiers removed from public text; model outputs and scores retained. See per-file hashes.",
+  "files": [
+    {
+      "source": "扑克牌陌生语言_20261015/01_body/events.jsonl",
+      "destination": "data/exploration/raw/phase1/01_body/events.jsonl",
+      "original_sha256": "6a32f543d695917c98f3343c75f5ce0569eac982755cf088f625d43179ced049",
+      "public_sha256": "6a32f543d695917c98f3343c75f5ce0569eac982755cf088f625d43179ced049",
+      "changed": false
+    },
+    {
+      "source": "扑克牌陌生语言_20261015/03_time/events.jsonl",
+      "destination": "data/exploration/raw/phase1/03_time/events.jsonl",
+      "original_sha256": "ee57a31958255afd34dbe414d0b1c009e60efb57a7135fac8cebfb2da8d44812",
+      "public_sha256": "ee57a31958255afd34dbe414d0b1c009e60efb57a7135fac8cebfb2da8d44812",
+      "changed": false
+    },
+    {
+      "source": "扑克牌陌生语言_20261015/02_relation/events.jsonl",
+      "destination": "data/exploration/raw/phase1/02_relation/events.jsonl",
+      "original_sha256": "6503f2b4d2d4f262abd19208da0b82294681b8babaa4b0d43dd5a5f9a6df9c5b",
+      "public_sha256": "6503f2b4d2d4f262abd19208da0b82294681b8babaa4b0d43dd5a5f9a6df9c5b",
+      "changed": false
+    },
+    {
+      "source": "第二轮六轮预试_20261015/events.jsonl",
+      "destination": "data/exploration/raw/pretest/events.jsonl",
+      "original_sha256": "f0beb1e02651bd8f0808e1eba0a79933859b684739b9c539adbb915beff063cd",
+      "public_sha256": "f0beb1e02651bd8f0808e1eba0a79933859b684739b9c539adbb915beff063cd",
+      "changed": false
+    },
+    {
+      "source": "第二轮正式实验_20261015/批次/B01/A/events.jsonl",
+      "destination": "data/exploration/raw/phase2/批次/B01/A/events.jsonl",
+      "original_sha256": "d412838b1527ea71f1855a02f417e8fec6b7f657aa62dfdb938844f3ac06911d",
+      "public_sha256": "d412838b1527ea71f1855a02f417e8fec6b7f657aa62dfdb938844f3ac06911d",
+      "changed": false
+    },
+    {
+      "source": "第二轮正式实验_20261015/批次/B01/C/events.jsonl",
+      "destination": "data/exploration/raw/phase2/批次/B01/C/events.jsonl",
+      "original_sha256": "2ad218279aca62a2a75621a6cde6d4505fa0931e6540429d233aee5641fdfef5",
+      "public_sha256": "2ad218279aca62a2a75621a6cde6d4505fa0931e6540429d233aee5641fdfef5",
+      "changed": false
+    },
+    {
+      "source": "第二轮正式实验_20261015/批次/B01/B/events.jsonl",
+      "destination": "data/exploration/raw/phase2/批次/B01/B/events.jsonl",
+      "original_sha256": "8215ee58273ef4f67051517638aef3e35a236306d550a510e83fba2c31fc25b7",
+      "public_sha256": "8215ee58273ef4f67051517638aef3e35a236306d550a510e83fba2c31fc25b7",
+      "changed": false
+    },
+    {
+      "source": "第二轮正式实验_20261015/批次/B02/B/events.jsonl",
+      "destination": "data/exploration/raw/phase2/批次/B02/B/events.jsonl",
+      "original_sha256": "961560ce248588ada74c8310e8febe5144a988a30ff28adda787fd47064fa1ec",
+      "public_sha256": "961560ce248588ada74c8310e8febe5144a988a30ff28adda787fd47064fa1ec",
+      "changed": false
+    },
+    {
+      "source": "第二轮正式实验_20261015/批次/B02/A/events.jsonl",
+      "destination": "data/exploration/raw/phase2/批次/B02/A/events.jsonl",
+      "original_sha256": "3613864a49b15e40e10b3e014957758859365cfc9dc76d53f85848351bbd860d",
+      "public_sha256": "3613864a49b15e40e10b3e014957758859365cfc9dc76d53f85848351bbd860d",
+      "changed": false
+    },
+    {
+      "source": "第二轮正式实验_20261015/批次/B02/C/events.jsonl",
+      "destination": "data/exploration/raw/phase2/批次/B02/C/events.jsonl",
+      "original_sha256": "a3ed113c3ad03804e3e717dccdded75b8a7520f11e97aa87163a40b2ef7c66b7",
+      "public_sha256": "a3ed113c3ad03804e3e717dccdded75b8a7520f11e97aa87163a40b2ef7c66b7",
+      "changed": false
+    },
+    {
+      "source": "第二轮正式实验_20261015/批次/B03/A/events.jsonl",
+      "destination": "data/exploration/raw/phase2/批次/B03/A/events.jsonl",
+      "original_sha256": "0cf106bb0bf308b0e61475928e028bc2ebd4e9c5d5c4debc9c16a908bf3dd063",
+      "public_sha256": "0cf106bb0bf308b0e61475928e028bc2ebd4e9c5d5c4debc9c16a908bf3dd063",
+      "changed": false
+    },
+    {
+      "source": "第二轮正式实验_20261015/批次/B03/B/events.jsonl",
+      "destination": "data/exploration/raw/phase2/批次/B03/B/events.jsonl",
+      "original_sha256": "e23429d7b94064a9b1d07cf1e90aee24668074ba61383ac3f4e30f7a93bfdacd",
+      "public_sha256": "e23429d7b94064a9b1d07cf1e90aee24668074ba61383ac3f4e30f7a93bfdacd",
+      "changed": false
+    },
+    {
+      "source": "第二轮正式实验_20261015/批次/B03/C/events.jsonl",
+      "destination": "data/exploration/raw/phase2/批次/B03/C/events.jsonl",
+      "original_sha256": "a6ed3069246bc944b4dd92322c19ac609d5d93ceeaa02ba3303dc09c11e948c7",
+      "public_sha256": "a6ed3069246bc944b4dd92322c19ac609d5d93ceeaa02ba3303dc09c11e948c7",
+      "changed": false
+    },
+    {
+      "source": "第二轮正式实验_20261015/批次/B04/A/events.jsonl",
+      "destination": "data/exploration/raw/phase2/批次/B04/A/events.jsonl",
+      "original_sha256": "8b342bf874cb4fa30ca914e66acc5fc581b099ae4ea709a961cbeca8ed9c92b0",
+      "public_sha256": "8b342bf874cb4fa30ca914e66acc5fc581b099ae4ea709a961cbeca8ed9c92b0",
+      "changed": false
+    },
+    {
+      "source": "第二轮正式实验_20261015/批次/B04/C/events.jsonl",
+      "destination": "data/exploration/raw/phase2/批次/B04/C/events.jsonl",
+      "original_sha256": "213242b2c3bd19969353163355ca122702e34763bffe8aebef6429219f4294e4",
+      "public_sha256": "213242b2c3bd19969353163355ca122702e34763bffe8aebef6429219f4294e4",
+      "changed": false
+    },
+    {
+      "source": "第二轮正式实验_20261015/批次/B04/B/events.jsonl",
+      "destination": "data/exploration/raw/phase2/批次/B04/B/events.jsonl",
+      "original_sha256": "2aac047b73cbd97eab97a7145c6d58b675a3d05ab2961b19251ff9882c33983b",
+      "public_sha256": "2aac047b73cbd97eab97a7145c6d58b675a3d05ab2961b19251ff9882c33983b",
+      "changed": false
+    },
+    {
+      "source": "第二轮正式实验_20261015/批次/B05/B/events.jsonl",
+      "destination": "data/exploration/raw/phase2/批次/B05/B/events.jsonl",
+      "original_sha256": "2b1fa365d6ec179d157019bea253cd3ed7c3f02b5993f70131dfb52ca7a0d597",
+      "public_sha256": "2b1fa365d6ec179d157019bea253cd3ed7c3f02b5993f70131dfb52ca7a0d597",
+      "changed": false
+    },
+    {
+      "source": "第二轮正式实验_20261015/批次/B05/A/events.jsonl",
+      "destination": "data/exploration/raw/phase2/批次/B05/A/events.jsonl",
+      "original_sha256": "b42b14254d9de6de3e477461547516de8eb99731fd2df2070e3f9cc90834f0d7",
+      "public_sha256": "b42b14254d9de6de3e477461547516de8eb99731fd2df2070e3f9cc90834f0d7",
+      "changed": false
+    },
+    {
+      "source": "第二轮正式实验_20261015/批次/B05/C/events.jsonl",
+      "destination": "data/exploration/raw/phase2/批次/B05/C/events.jsonl",
+      "original_sha256": "c767cdeb58321734e88b320e5296110050a8c0292325f0422816b62f31129b81",
+      "public_sha256": "c767cdeb58321734e88b320e5296110050a8c0292325f0422816b62f31129b81",
+      "changed": false
+    },
+    {
+      "source": "千例验证与教材_20261015/ops/experiment.py",
+      "destination": "archive/code/evaluation-1000-engine.py",
+      "original_sha256": "4fde84442fa0dd8d1375c245c114252b49eb837fbbc6ba8744d01b71bed72a65",
+      "public_sha256": "4fde84442fa0dd8d1375c245c114252b49eb837fbbc6ba8744d01b71bed72a65",
+      "changed": false
+    },
+    {
+      "source": "千例验证与教材_20261015/ops/test_experiment.py",
+      "destination": "archive/code/evaluation-1000-tests.py",
+      "original_sha256": "d0ba27585c4b289877f7ebb152270c0d047e03d4b3b6dbc25d7c64bc95615d04",
+      "public_sha256": "d0ba27585c4b289877f7ebb152270c0d047e03d4b3b6dbc25d7c64bc95615d04",
+      "changed": false
+    },
+    {
+      "source": "三张牌占卜模拟_20261015/run_experiment.py",
+      "destination": "archive/code/pilot-100-engine.py",
+      "original_sha256": "b6f5637a3e05e1e89d95368230195929140c0f24eb350d529c65654826722b62",
+      "public_sha256": "b6f5637a3e05e1e89d95368230195929140c0f24eb350d529c65654826722b62",
+      "changed": false
+    },
+    {
+      "source": "千例验证与教材_20261015/ops/experiment.py",
+      "destination": "src/cardlab/engine.py",
+      "original_sha256": "4fde84442fa0dd8d1375c245c114252b49eb837fbbc6ba8744d01b71bed72a65",
+      "public_sha256": "f6649d2e717dd5d49c4747d30c472ed48294078b46a30d0c072f7b766caf682f",
+      "changed": true
+    },
+    {
+      "source": "三张牌占卜模拟_20261015/versions/1.0/references/symbols.md",
+      "destination": "methods/pilot-1.0/references/symbols.md",
+      "original_sha256": "b39f6f6131ba4420e1b915d71f58902fae0437bb0d9929420f3313064463e0e8",
+      "public_sha256": "c7a67658a40d68f00e072b3740deed7e1cd2f6e42827f5e53c340d272df49b85",
+      "changed": true
+    },
+    {
+      "source": "三张牌占卜模拟_20261015/versions/1.0/scripts/draw.py",
+      "destination": "methods/pilot-1.0/scripts/draw.py",
+      "original_sha256": "df9f5a8fa0cb3677bb483fbd20d5cccdd57b6ad6a79271dba3c98630b4d882a8",
+      "public_sha256": "df9f5a8fa0cb3677bb483fbd20d5cccdd57b6ad6a79271dba3c98630b4d882a8",
+      "changed": false
+    },
+    {
+      "source": "三张牌占卜模拟_20261015/versions/1.0/SKILL.md",
+      "destination": "methods/pilot-1.0/SKILL.md",
+      "original_sha256": "019ec1713f8cc12ba476b97f1392616d710ca4eb01165fcb0209d7529f0c6e04",
+      "public_sha256": "6e3ab5b1e6544b5662e8b95f9f05581ef906d2db73354efc831c2f64b7341688",
+      "changed": true
+    },
+    {
+      "source": "三张牌占卜模拟_20261015/versions/1.1/references/symbols.md",
+      "destination": "methods/pilot-1.1/references/symbols.md",
+      "original_sha256": "b39f6f6131ba4420e1b915d71f58902fae0437bb0d9929420f3313064463e0e8",
+      "public_sha256": "c7a67658a40d68f00e072b3740deed7e1cd2f6e42827f5e53c340d272df49b85",
+      "changed": true
+    },
+    {
+      "source": "三张牌占卜模拟_20261015/versions/1.1/scripts/draw.py",
+      "destination": "methods/pilot-1.1/scripts/draw.py",
+      "original_sha256": "df9f5a8fa0cb3677bb483fbd20d5cccdd57b6ad6a79271dba3c98630b4d882a8",
+      "public_sha256": "df9f5a8fa0cb3677bb483fbd20d5cccdd57b6ad6a79271dba3c98630b4d882a8",
+      "changed": false
+    },
+    {
+      "source": "三张牌占卜模拟_20261015/versions/1.1/SKILL.md",
+      "destination": "methods/pilot-1.1/SKILL.md",
+      "original_sha256": "debe0d3ea6b87d08a82169ff40fda90ab3b00978dabcd07a8e57531758dbf106",
+      "public_sha256": "575c00a2c8cec4dbcaf06abbc0b603b8a0a7e51f799140f89d9bacdf17be7862",
+      "changed": true
+    },
+    {
+      "source": "三张牌占卜模拟_20261015/versions/1.2/references/symbols.md",
+      "destination": "methods/pilot-1.2/references/symbols.md",
+      "original_sha256": "b39f6f6131ba4420e1b915d71f58902fae0437bb0d9929420f3313064463e0e8",
+      "public_sha256": "c7a67658a40d68f00e072b3740deed7e1cd2f6e42827f5e53c340d272df49b85",
+      "changed": true
+    },
+    {
+      "source": "三张牌占卜模拟_20261015/versions/1.2/scripts/draw.py",
+      "destination": "methods/pilot-1.2/scripts/draw.py",
+      "original_sha256": "df9f5a8fa0cb3677bb483fbd20d5cccdd57b6ad6a79271dba3c98630b4d882a8",
+      "public_sha256": "df9f5a8fa0cb3677bb483fbd20d5cccdd57b6ad6a79271dba3c98630b4d882a8",
+      "changed": false
+    },
+    {
+      "source": "三张牌占卜模拟_20261015/versions/1.2/SKILL.md",
+      "destination": "methods/pilot-1.2/SKILL.md",
+      "original_sha256": "8858ff4346e58e0c4038528a13b69be88a7a7b6e3fc162892e65da7812fccd4f",
+      "public_sha256": "f7805347902a0f48108a0825d05ebe4a522ef68eefbe1fb063963cafc1c36f4a",
+      "changed": true
+    },
+    {
+      "source": "三张牌占卜模拟_20261015/versions/1.3/references/symbols.md",
+      "destination": "methods/pilot-1.3/references/symbols.md",
+      "original_sha256": "b39f6f6131ba4420e1b915d71f58902fae0437bb0d9929420f3313064463e0e8",
+      "public_sha256": "c7a67658a40d68f00e072b3740deed7e1cd2f6e42827f5e53c340d272df49b85",
+      "changed": true
+    },
+    {
+      "source": "三张牌占卜模拟_20261015/versions/1.3/scripts/draw.py",
+      "destination": "methods/pilot-1.3/scripts/draw.py",
+      "original_sha256": "df9f5a8fa0cb3677bb483fbd20d5cccdd57b6ad6a79271dba3c98630b4d882a8",
+      "public_sha256": "df9f5a8fa0cb3677bb483fbd20d5cccdd57b6ad6a79271dba3c98630b4d882a8",
+      "changed": false
+    },
+    {
+      "source": "三张牌占卜模拟_20261015/versions/1.3/SKILL.md",
+      "destination": "methods/pilot-1.3/SKILL.md",
+      "original_sha256": "bd8223afac8223e92cdffe8d6aec545a7525b32c5059e41d9d9f731d14ba20a9",
+      "public_sha256": "e35235d5c8eb1d38de5bfb17f361455f7ac3357ac4112c9816ddfef261f9d1be",
+      "changed": true
+    },
+    {
+      "source": "千例验证与教材_20261015/run_v2_1000/method/references/evaluation.md",
+      "destination": "methods/evaluation-2.0-frozen/references/evaluation.md",
+      "original_sha256": "aa43aa11797c774100c5b3da05856e5596c203d2ad42793dd4f50a155840a250",
+      "public_sha256": "aa43aa11797c774100c5b3da05856e5596c203d2ad42793dd4f50a155840a250",
+      "changed": false
+    },
+    {
+      "source": "千例验证与教材_20261015/run_v2_1000/method/references/review.md",
+      "destination": "methods/evaluation-2.0-frozen/references/review.md",
+      "original_sha256": "e865fb1ed9f370e9a95dda5cae4fb1e4899ea5c0c7375487f54d3ace791c7ba4",
+      "public_sha256": "e865fb1ed9f370e9a95dda5cae4fb1e4899ea5c0c7375487f54d3ace791c7ba4",
+      "changed": false
+    },
+    {
+      "source": "千例验证与教材_20261015/run_v2_1000/method/references/symbols.md",
+      "destination": "methods/evaluation-2.0-frozen/references/symbols.md",
+      "original_sha256": "22eec9ed46074c88fdcd37d057c2df639c622981653cb0ad468887e21125a9c2",
+      "public_sha256": "22eec9ed46074c88fdcd37d057c2df639c622981653cb0ad468887e21125a9c2",
+      "changed": false
+    },
+    {
+      "source": "千例验证与教材_20261015/run_v2_1000/method/scripts/draw.py",
+      "destination": "methods/evaluation-2.0-frozen/scripts/draw.py",
+      "original_sha256": "df9f5a8fa0cb3677bb483fbd20d5cccdd57b6ad6a79271dba3c98630b4d882a8",
+      "public_sha256": "df9f5a8fa0cb3677bb483fbd20d5cccdd57b6ad6a79271dba3c98630b4d882a8",
+      "changed": false
+    },
+    {
+      "source": "千例验证与教材_20261015/run_v2_1000/method/SKILL.md",
+      "destination": "methods/evaluation-2.0-frozen/SKILL.md",
+      "original_sha256": "ac8674e2de7d9b609d03d32e528a7b00e5469c4cbd1cc38e7783b43dd597e86f",
+      "public_sha256": "035ba9e564d5244e6ff21cc7c0d17955be963e724a6afa3a06ed497e531dc681",
+      "changed": true
+    },
+    {
+      "source": "千例验证与教材_20261015/skill/cgm-three-card-divination/references/evaluation.md",
+      "destination": "methods/post-test-skill/references/evaluation.md",
+      "original_sha256": "aa43aa11797c774100c5b3da05856e5596c203d2ad42793dd4f50a155840a250",
+      "public_sha256": "aa43aa11797c774100c5b3da05856e5596c203d2ad42793dd4f50a155840a250",
+      "changed": false
+    },
+    {
+      "source": "千例验证与教材_20261015/skill/cgm-three-card-divination/references/experiment-1000.md",
+      "destination": "methods/post-test-skill/references/experiment-1000.md",
+      "original_sha256": "77a0c09bb118151a3d184fd3222373989a0f131cf483bf52fe56de662d7d0956",
+      "public_sha256": "77a0c09bb118151a3d184fd3222373989a0f131cf483bf52fe56de662d7d0956",
+      "changed": false
+    },
+    {
+      "source": "千例验证与教材_20261015/skill/cgm-three-card-divination/references/review.md",
+      "destination": "methods/post-test-skill/references/review.md",
+      "original_sha256": "e865fb1ed9f370e9a95dda5cae4fb1e4899ea5c0c7375487f54d3ace791c7ba4",
+      "public_sha256": "e865fb1ed9f370e9a95dda5cae4fb1e4899ea5c0c7375487f54d3ace791c7ba4",
+      "changed": false
+    },
+    {
+      "source": "千例验证与教材_20261015/skill/cgm-three-card-divination/references/symbols.md",
+      "destination": "methods/post-test-skill/references/symbols.md",
+      "original_sha256": "22eec9ed46074c88fdcd37d057c2df639c622981653cb0ad468887e21125a9c2",
+      "public_sha256": "22eec9ed46074c88fdcd37d057c2df639c622981653cb0ad468887e21125a9c2",
+      "changed": false
+    },
+    {
+      "source": "千例验证与教材_20261015/skill/cgm-three-card-divination/scripts/draw.py",
+      "destination": "methods/post-test-skill/scripts/draw.py",
+      "original_sha256": "df9f5a8fa0cb3677bb483fbd20d5cccdd57b6ad6a79271dba3c98630b4d882a8",
+      "public_sha256": "df9f5a8fa0cb3677bb483fbd20d5cccdd57b6ad6a79271dba3c98630b4d882a8",
+      "changed": false
+    },
+    {
+      "source": "千例验证与教材_20261015/skill/cgm-three-card-divination/SKILL.md",
+      "destination": "methods/post-test-skill/SKILL.md",
+      "original_sha256": "2d9dd4d7353e226017cb28a018a8cdb0d73f0da252a7158f5a481fdba602d99f",
+      "public_sha256": "2d9dd4d7353e226017cb28a018a8cdb0d73f0da252a7158f5a481fdba602d99f",
+      "changed": false
+    },
+    {
+      "source": "三张牌占卜模拟_20261015/author_private/outcome_audit.json",
+      "destination": "data/pilot-100/outcome-audit.json",
+      "original_sha256": "e6e3bec13f7bc8c016d3547d285c9e790774bb56867e144a596a7672a64719f6",
+      "public_sha256": "e6e3bec13f7bc8c016d3547d285c9e790774bb56867e144a596a7672a64719f6",
+      "changed": false
+    },
+    {
+      "source": "三张牌占卜模拟_20261015/results.json",
+      "destination": "archive/pilot-100-results.json",
+      "original_sha256": "4c9faab593ace41d6b6bccb6978959eb5d2adbfe826b73eb43a52556c3811648",
+      "public_sha256": "4c9faab593ace41d6b6bccb6978959eb5d2adbfe826b73eb43a52556c3811648",
+      "changed": false
+    },
+    {
+      "source": "千例验证与教材_20261015/run_v2_1000",
+      "destination": "archive/evaluation-1000-frozen.zip",
+      "mode": "byte-preserving ZIP; original freeze hashes retained",
+      "public_sha256": "355dd7a792c4ed3d1ceba92d7f3322bab8cc49c99e931fac11e12b9482eb620f"
+    },
+    {
+      "source": "三张牌占卜模拟_20261015/实验约定.md",
+      "destination": "docs/historical/pilot-protocol.md",
+      "original_sha256": "33bf7b394461702d13ddd4d4610307618f03720b5eac8b42805f156aa41e531d",
+      "public_sha256": "19e9934186202351b3f03b622e8867f33bb64a0622292e2a0fc28b18b1078632",
+      "changed": true
+    },
+    {
+      "source": "三张牌占卜模拟_20261015/迭代记录.md",
+      "destination": "docs/historical/pilot-iterations.md",
+      "original_sha256": "702be5bd05502ed40f0a4b9bd3b60cc7de468c6136c53f4d89b0888879af51b3",
+      "public_sha256": "024834c899c9cc8678e71123ad50058d28193c043cce9838f0e63fa2abc6476b",
+      "changed": true
+    },
+    {
+      "source": "三张牌占卜模拟_20261015/模拟结论.md",
+      "destination": "reports/pilot-100.md",
+      "original_sha256": "c33d048f664637853a5b5c04d66aa651a7639d914bfcf0f5225a0ffddbbaf168",
+      "public_sha256": "5a30316737d92d60e10244f92dc1488b86a1aac9b18d520c587a33b56f8f44c0",
+      "changed": true
+    },
+    {
+      "source": "千例验证与教材_20261015/results/检验结果.md",
+      "destination": "reports/evaluation-1000.md",
+      "original_sha256": "1a4d3c4733c0479635ccd4e362953ed59620ed8d9825bbf2df2976d8926fa29c",
+      "public_sha256": "1a4d3c4733c0479635ccd4e362953ed59620ed8d9825bbf2df2976d8926fa29c",
+      "changed": false
+    },
+    {
+      "source": "扑克牌方法来源审查_20261015/最终审查报告.md",
+      "destination": "reports/source-audit.md",
+      "original_sha256": "3db92814d4bdb80af6175a337929b4fd1b91e3756b0b4e821fb8cce10d8110d7",
+      "public_sha256": "12b7cf733cd20ed972ba507a05ef51f90a61fa91783994a6087c7fb8d7b83621",
+      "changed": true
+    },
+    {
+      "source": "扑克牌方法来源审查_20261015/来源时间线.md",
+      "destination": "reports/source-timeline.md",
+      "original_sha256": "d783e4574d7b7a5a5ad7bd4a375eeac3b7d64c98e3cf81ade3c4a60ecf2b4dc7",
+      "public_sha256": "73711ca4460a6f5bd3165305cbe58eeb061a3517b799971533efe191ce3c5ad6",
+      "changed": true
+    },
+    {
+      "source": "扑克牌方法来源审查_20261015/逐项对照表.md",
+      "destination": "reports/symbol-origin-table.md",
+      "original_sha256": "feda4eb79b6dff0f61f43b9ad7bf7cd740525da35479810d4e0ea304fa9006f5",
+      "public_sha256": "ccea3bd619529a042466eeda6348ec06d7f0ab1dbd491997c2b40c050b954015",
+      "changed": true
+    },
+    {
+      "source": "扑克牌方法来源审查_20261015/外部对照来源.md",
+      "destination": "reports/external-references.md",
+      "original_sha256": "19195770e109475a4a5c669203f32060ebd605e749ad65c594b0f502e3c249c1",
+      "public_sha256": "8241fa1e64cd369b57e71d7a6666f0e3cbeebe89e1929a95219c76af20f832c7",
+      "changed": true
+    },
+    {
+      "source": "扑克牌方法来源审查_20261015/受影响案例索引.md",
+      "destination": "reports/audited-cases.md",
+      "original_sha256": "d7793d357dc127c3ec7e10e280e1e27eedced3b9b369a2bcdc585060264c0631",
+      "public_sha256": "d7793d357dc127c3ec7e10e280e1e27eedced3b9b369a2bcdc585060264c0631",
+      "changed": false
+    },
+    {
+      "source": "千例验证与教材_20261015/实验过程与核心结论.md",
+      "destination": "docs/experiment-summary.md",
+      "original_sha256": "a5ae8235f4b257a8cc6af433968d5415dc56441e545cae1368a141927862a1e9",
+      "public_sha256": "c273349ed53eb8a8ad071e6614a9c046ee07fe39a4ec99b6bbf38838b9faa71b",
+      "changed": true
+    },
+    {
+      "source": "千例验证与教材_20261015/教材修订_v4/教材正文.md",
+      "destination": "teaching/textbook.md",
+      "original_sha256": "23e6ae4d5ad15c5a91638ce6d41b9a8765c5f7be6bd4eac31dad4de1a5370440",
+      "public_sha256": "dc78d8ab709bcda14c0f584d3946e439b971f27e974bd024112eeae1942ff748",
+      "changed": true,
+      "change_note": "Append author, public account, project introduction, repository link and license on 2026-10-15; original 40 cases retained."
+    },
+    {
+      "source": "千例验证与教材_20261015/电子书/三张扑克牌_四十例精简教材.pdf",
+      "destination": "teaching/textbook.pdf",
+      "original_sha256": "6b9118c7df5da064e6de4d4aae3bf9f508e6778266dd7d5d1008cfdfd3935b6c",
+      "public_sha256": "5ac8abc5ff33af25343d384b86ac881c7eb2433c9b590cb96c490daab22bafe7",
+      "changed": true,
+      "change_note": "Append author, public account, project introduction, repository link and license on 2026-10-15; original 40 cases retained."
+    },
+    {
+      "source": "千例验证与教材_20261015/prediction_workspace/预测工作说明.md",
+      "destination": "prompts/historical/evaluation-predictors.md",
+      "original_sha256": "fdf4e1cb358323106706088c94adf07406b4dd73b31465066cd59e3d90dcf621",
+      "public_sha256": "b01f059fcaf3ec4e727a96f2aa95060f233acd8b54d40a22d699512f2e3ddddc",
+      "changed": true
+    },
+    {
+      "source": "第二轮正式实验_20261015/中央总控任务书.md",
+      "destination": "prompts/historical/phase2-controller.md",
+      "original_sha256": "0ec352df7d5ed721a4cf9cd19bb5fa8ac8c19811896cb6688d09cee165c62561",
+      "public_sha256": "fe31bca9c1fed6b7ec9d35f71bad8e4341beda5c0bc346ca95692aa295693d2c",
+      "changed": true
+    },
+    {
+      "source": "第二轮正式实验_20261015/提问措辞对照.json",
+      "destination": "data/exploration/question-display-changes.json",
+      "original_sha256": "11e11ad0ce52c5f2478b74282afbcc7c47e24503dddacd23c860b09216413050",
+      "public_sha256": "11e11ad0ce52c5f2478b74282afbcc7c47e24503dddacd23c860b09216413050",
+      "changed": false
+    },
+    {
+      "source": "第二轮正式实验_20261015/最终成果/四种花色.md",
+      "destination": "docs/historical/phase2-四种花色.md",
+      "original_sha256": "24dc3207a92924b4ba76606588eb90121234cc49639c24e98e4202f87378847a",
+      "public_sha256": "e42fbb805a78b73d44736641d7cb590f6dcf8a5a6076eceb683b30f2b967bac8",
+      "changed": true
+    },
+    {
+      "source": "第二轮正式实验_20261015/最终成果/十三种牌值.md",
+      "destination": "docs/historical/phase2-十三种牌值.md",
+      "original_sha256": "0788a66a1b3686d7b6123e292c31cc7e7f33abd8a5d8717a79e5b3f740d8a327",
+      "public_sha256": "5f0b0ff5c926844d0fa19e4fa7b55a385f8a9e484949e63782eef403ec5bf4fb",
+      "changed": true
+    },
+    {
+      "source": "第二轮正式实验_20261015/最终成果/组合与应用.md",
+      "destination": "docs/historical/phase2-组合与应用.md",
+      "original_sha256": "45c39dfddda82a54e58e6c9bc6637d28111919a793b4c66698590938971d4771",
+      "public_sha256": "8502039129a3b71411c1c3ec06b770eb9bb6671edacc55b4a1a957999e3bf948",
+      "changed": true
+    },
+    {
+      "source": "第二轮正式实验_20261015/最终成果/总述.md",
+      "destination": "docs/historical/phase2-总述.md",
+      "original_sha256": "dcdbc964fe87cc88efe835062418fe618752780fe785861874bf27d7b9b452ef",
+      "public_sha256": "bf1cdcbe4d1e19539cca87a6f50bba305e0e3910f8f4007912732b364f5fb07b",
+      "changed": true
+    },
+    {
+      "source": "第二轮正式实验_20261015/最终成果/开放问题.md",
+      "destination": "docs/historical/phase2-开放问题.md",
+      "original_sha256": "8425f226254dd00f7dd2315e58f1fd9107992e0517d29976652fb2ce3a0b314f",
+      "public_sha256": "3b1c768296b9ceb1ba8cf0dc85390d372e913a50769f4081e0ff1a903d609d0e",
+      "changed": true
+    },
+    {
+      "source": "扑克牌陌生语言_20261015/实验协议.md",
+      "destination": "archive/exploration-history/phase1/实验协议.md",
+      "original_sha256": "5201212e7a03e9c81d7253dbf7cd952040443c1c3a8858a502fa9da733ca046f",
+      "public_sha256": "6785f7f4044b04adefc63d80efa0332166c1d4f3d9b6c1b26097ca8fd96e8abd",
+      "changed": true
+    },
+    {
+      "source": "扑克牌陌生语言_20261015/总述_四种花色与十三种牌值.md",
+      "destination": "archive/exploration-history/phase1/总述_四种花色与十三种牌值.md",
+      "original_sha256": "c39d0b5f17cc436c41fa6cc19826f0aa155a916d9e1e18a2d2cb1df384e12024",
+      "public_sha256": "a9c76a817e8787ca043b7b8809a48631992c56fd1a93b83f2e2d2a9c05828ee3",
+      "changed": true
+    },
+    {
+      "source": "扑克牌陌生语言_20261015/draw.py",
+      "destination": "archive/exploration-history/phase1/draw.py",
+      "original_sha256": "e0a0e0a5a7401d88ccabe05389d24314374d38188f79aea51a73a4a48a252bf1",
+      "public_sha256": "e0a0e0a5a7401d88ccabe05389d24314374d38188f79aea51a73a4a48a252bf1",
+      "changed": false
+    },
+    {
+      "source": "扑克牌陌生语言_20261015/01_body/checkpoint_026.md",
+      "destination": "archive/exploration-history/phase1/01_body/checkpoint_026.md",
+      "original_sha256": "25fd3ff74b00dc6196c10ddbf2b1521c3fdb2aa2250326c239d72b84307105f7",
+      "public_sha256": "25fd3ff74b00dc6196c10ddbf2b1521c3fdb2aa2250326c239d72b84307105f7",
+      "changed": false
+    },
+    {
+      "source": "扑克牌陌生语言_20261015/01_body/checkpoint_052.md",
+      "destination": "archive/exploration-history/phase1/01_body/checkpoint_052.md",
+      "original_sha256": "2dcba935198905b1e9bb2c0ab6f49c6eb8f577627ad943a39996a32ee35dd672",
+      "public_sha256": "2dcba935198905b1e9bb2c0ab6f49c6eb8f577627ad943a39996a32ee35dd672",
+      "changed": false
+    },
+    {
+      "source": "扑克牌陌生语言_20261015/01_body/checkpoint_078.md",
+      "destination": "archive/exploration-history/phase1/01_body/checkpoint_078.md",
+      "original_sha256": "e318a221d73390858f21aa5edbc87aad6bc17fc228041253e5b208eeecde364e",
+      "public_sha256": "e318a221d73390858f21aa5edbc87aad6bc17fc228041253e5b208eeecde364e",
+      "changed": false
+    },
+    {
+      "source": "扑克牌陌生语言_20261015/01_body/checkpoint_104.md",
+      "destination": "archive/exploration-history/phase1/01_body/checkpoint_104.md",
+      "original_sha256": "caf6dadf940c727bd111e0e2f4c9dddfd6141468ae7bf41bc7e5ef01e8afbe60",
+      "public_sha256": "caf6dadf940c727bd111e0e2f4c9dddfd6141468ae7bf41bc7e5ef01e8afbe60",
+      "changed": false
+    },
+    {
+      "source": "扑克牌陌生语言_20261015/01_body/checkpoint_130.md",
+      "destination": "archive/exploration-history/phase1/01_body/checkpoint_130.md",
+      "original_sha256": "1f0d3db6508f1a7c55089cd1c4c6b6b5143df9ef6b908806ed2bb6cd398498db",
+      "public_sha256": "1f0d3db6508f1a7c55089cd1c4c6b6b5143df9ef6b908806ed2bb6cd398498db",
+      "changed": false
+    },
+    {
+      "source": "扑克牌陌生语言_20261015/01_body/checkpoint_156.md",
+      "destination": "archive/exploration-history/phase1/01_body/checkpoint_156.md",
+      "original_sha256": "cf0c6136f83e961bd0210eae81e2f75b87941c117a2a5d25172e5559eb349754",
+      "public_sha256": "cf0c6136f83e961bd0210eae81e2f75b87941c117a2a5d25172e5559eb349754",
+      "changed": false
+    },
+    {
+      "source": "扑克牌陌生语言_20261015/01_body/researcher_report.md",
+      "destination": "archive/exploration-history/phase1/01_body/researcher_report.md",
+      "original_sha256": "68d05c206f769e3cd8748183bfd697febd34f5a2fdf03e569cf99a6053915a7d",
+      "public_sha256": "68d05c206f769e3cd8748183bfd697febd34f5a2fdf03e569cf99a6053915a7d",
+      "changed": false
+    },
+    {
+      "source": "扑克牌陌生语言_20261015/02_relation/checkpoint_026.md",
+      "destination": "archive/exploration-history/phase1/02_relation/checkpoint_026.md",
+      "original_sha256": "c642ae18335209861fd685fc4aac2e2d04777151ed7276a334ec1a87d36ac539",
+      "public_sha256": "c642ae18335209861fd685fc4aac2e2d04777151ed7276a334ec1a87d36ac539",
+      "changed": false
+    },
+    {
+      "source": "扑克牌陌生语言_20261015/02_relation/checkpoint_052.md",
+      "destination": "archive/exploration-history/phase1/02_relation/checkpoint_052.md",
+      "original_sha256": "d7d3287b77fdca3e6438aeb95e5c023bd8c566f074f7e0b49e34460bdffba76d",
+      "public_sha256": "d7d3287b77fdca3e6438aeb95e5c023bd8c566f074f7e0b49e34460bdffba76d",
+      "changed": false
+    },
+    {
+      "source": "扑克牌陌生语言_20261015/02_relation/checkpoint_078.md",
+      "destination": "archive/exploration-history/phase1/02_relation/checkpoint_078.md",
+      "original_sha256": "73ce503e4c9efab10b954d887f0a93186d6d0dc86bc70627122d0be0bd674473",
+      "public_sha256": "73ce503e4c9efab10b954d887f0a93186d6d0dc86bc70627122d0be0bd674473",
+      "changed": false
+    },
+    {
+      "source": "扑克牌陌生语言_20261015/02_relation/checkpoint_104.md",
+      "destination": "archive/exploration-history/phase1/02_relation/checkpoint_104.md",
+      "original_sha256": "dc7595af2177e2b264e7278ba0676713389d14facc712eb523032239eca954c8",
+      "public_sha256": "dc7595af2177e2b264e7278ba0676713389d14facc712eb523032239eca954c8",
+      "changed": false
+    },
+    {
+      "source": "扑克牌陌生语言_20261015/02_relation/checkpoint_130.md",
+      "destination": "archive/exploration-history/phase1/02_relation/checkpoint_130.md",
+      "original_sha256": "3697e97d1b51c184c864788f13b69a47cfa80064be758285b318030ecb085c39",
+      "public_sha256": "3697e97d1b51c184c864788f13b69a47cfa80064be758285b318030ecb085c39",
+      "changed": false
+    },
+    {
+      "source": "扑克牌陌生语言_20261015/02_relation/checkpoint_156.md",
+      "destination": "archive/exploration-history/phase1/02_relation/checkpoint_156.md",
+      "original_sha256": "0e0515f836df41a4371f2767012544f4ac43c9851573ce789e5126aea8273c88",
+      "public_sha256": "0e0515f836df41a4371f2767012544f4ac43c9851573ce789e5126aea8273c88",
+      "changed": false
+    },
+    {
+      "source": "扑克牌陌生语言_20261015/02_relation/researcher_report.md",
+      "destination": "archive/exploration-history/phase1/02_relation/researcher_report.md",
+      "original_sha256": "7a078ad7ad8d3d8384c4f374eb9e78ee5f12865e826706804e73a23c11311980",
+      "public_sha256": "7a078ad7ad8d3d8384c4f374eb9e78ee5f12865e826706804e73a23c11311980",
+      "changed": false
+    },
+    {
+      "source": "扑克牌陌生语言_20261015/03_time/checkpoint_026.md",
+      "destination": "archive/exploration-history/phase1/03_time/checkpoint_026.md",
+      "original_sha256": "9860e5da8e83a8c078b65215c18151c63f2a26a76af856194329d00ff38de2ab",
+      "public_sha256": "9860e5da8e83a8c078b65215c18151c63f2a26a76af856194329d00ff38de2ab",
+      "changed": false
+    },
+    {
+      "source": "扑克牌陌生语言_20261015/03_time/checkpoint_052.md",
+      "destination": "archive/exploration-history/phase1/03_time/checkpoint_052.md",
+      "original_sha256": "f782108e290d5fb7dc24536bbb5ee72bf410dfb02547b6669931a0a08e0658d8",
+      "public_sha256": "f782108e290d5fb7dc24536bbb5ee72bf410dfb02547b6669931a0a08e0658d8",
+      "changed": false
+    },
+    {
+      "source": "扑克牌陌生语言_20261015/03_time/checkpoint_078.md",
+      "destination": "archive/exploration-history/phase1/03_time/checkpoint_078.md",
+      "original_sha256": "766fbf5956b7d96e30ace0d162e6b8b63e25821539f2252704e283467b674920",
+      "public_sha256": "766fbf5956b7d96e30ace0d162e6b8b63e25821539f2252704e283467b674920",
+      "changed": false
+    },
+    {
+      "source": "扑克牌陌生语言_20261015/03_time/checkpoint_104.md",
+      "destination": "archive/exploration-history/phase1/03_time/checkpoint_104.md",
+      "original_sha256": "bc1ed80da5ac61d3d74e2ab94fdb49fd0f4dec729c06fab2a7a295e795939776",
+      "public_sha256": "bc1ed80da5ac61d3d74e2ab94fdb49fd0f4dec729c06fab2a7a295e795939776",
+      "changed": false
+    },
+    {
+      "source": "扑克牌陌生语言_20261015/03_time/checkpoint_130.md",
+      "destination": "archive/exploration-history/phase1/03_time/checkpoint_130.md",
+      "original_sha256": "461043822fbc0615a29c07cedc4e10857c5240177a4f7a647175207d7d6e90d2",
+      "public_sha256": "461043822fbc0615a29c07cedc4e10857c5240177a4f7a647175207d7d6e90d2",
+      "changed": false
+    },
+    {
+      "source": "扑克牌陌生语言_20261015/03_time/checkpoint_156.md",
+      "destination": "archive/exploration-history/phase1/03_time/checkpoint_156.md",
+      "original_sha256": "264392658d2cae49eba0995303a15d5adc21ba854d7c64ddaef9cfd1bb90620e",
+      "public_sha256": "264392658d2cae49eba0995303a15d5adc21ba854d7c64ddaef9cfd1bb90620e",
+      "changed": false
+    },
+    {
+      "source": "扑克牌陌生语言_20261015/03_time/researcher_report.md",
+      "destination": "archive/exploration-history/phase1/03_time/researcher_report.md",
+      "original_sha256": "c12b91289d01041fc3d6515526f3cb58232dc32c6000f660863b4e818b390887",
+      "public_sha256": "c12b91289d01041fc3d6515526f3cb58232dc32c6000f660863b4e818b390887",
+      "changed": false
+    },
+    {
+      "source": "第二轮六轮预试_20261015/任务说明.md",
+      "destination": "archive/exploration-history/pretest/任务说明.md",
+      "original_sha256": "b730ff6c3a48f2a17208679ea7c0558a647a5d32c586d9ed7d5c136d93628c37",
+      "public_sha256": "b730ff6c3a48f2a17208679ea7c0558a647a5d32c586d9ed7d5c136d93628c37",
+      "changed": false
+    },
+    {
+      "source": "第二轮六轮预试_20261015/主持观察口径.md",
+      "destination": "archive/exploration-history/pretest/主持观察口径.md",
+      "original_sha256": "b580a6deace01d0d6b124c6e8a33690b15b4499b9511536062152110fbae52cd",
+      "public_sha256": "b580a6deace01d0d6b124c6e8a33690b15b4499b9511536062152110fbae52cd",
+      "changed": false
+    },
+    {
+      "source": "第二轮六轮预试_20261015/主持观察与方案调整.md",
+      "destination": "archive/exploration-history/pretest/主持观察与方案调整.md",
+      "original_sha256": "ef1e98ec24978cf54a96a588651cbdb5fb923ba022b9df7231734d3e95763198",
+      "public_sha256": "ef1e98ec24978cf54a96a588651cbdb5fb923ba022b9df7231734d3e95763198",
+      "changed": false
+    },
+    {
+      "source": "第二轮六轮预试_20261015/研究者回顾.md",
+      "destination": "archive/exploration-history/pretest/研究者回顾.md",
+      "original_sha256": "8d92c84cd079ad4d36cf62bfcbe8e8a0b16af3e26fbd77e43fe1f65008443a08",
+      "public_sha256": "8d92c84cd079ad4d36cf62bfcbe8e8a0b16af3e26fbd77e43fe1f65008443a08",
+      "changed": false
+    },
+    {
+      "source": "第二轮六轮预试_20261015/draw_pilot.py",
+      "destination": "archive/exploration-history/pretest/draw_pilot.py",
+      "original_sha256": "b7e87706998a12be0f07204d357c0a4057942c983cf285610be9db0eab104f25",
+      "public_sha256": "b7e87706998a12be0f07204d357c0a4057942c983cf285610be9db0eab104f25",
+      "changed": false
+    },
+    {
+      "source": "第二轮正式实验_20261015/工具/研究者协议.md",
+      "destination": "archive/exploration-history/phase2/tools/研究者协议.md",
+      "original_sha256": "fd9e98a5dd2dd35bffffc2c5e7937a20560bd99fc57cea0df059485047209857",
+      "public_sha256": "fd9e98a5dd2dd35bffffc2c5e7937a20560bd99fc57cea0df059485047209857",
+      "changed": false
+    },
+    {
+      "source": "第二轮正式实验_20261015/工具/draw.py",
+      "destination": "archive/exploration-history/phase2/tools/draw.py",
+      "original_sha256": "fe7ebc6e9d5c2dad27a006552d06a1c8f75f68161e4407a47965e350740fb5a6",
+      "public_sha256": "fe7ebc6e9d5c2dad27a006552d06a1c8f75f68161e4407a47965e350740fb5a6",
+      "changed": false
+    },
+    {
+      "source": "第二轮正式实验_20261015/工具/central.py",
+      "destination": "archive/exploration-history/phase2/tools/central.py",
+      "original_sha256": "3de69f095c14684400a7fdcce10f15da5e4883163f4ba5d65f69c9a7bbd0de39",
+      "public_sha256": "3de69f095c14684400a7fdcce10f15da5e4883163f4ba5d65f69c9a7bbd0de39",
+      "changed": false
+    },
+    {
+      "source": "第二轮正式实验_20261015/工具/prepare_batch.py",
+      "destination": "archive/exploration-history/phase2/tools/prepare_batch.py",
+      "original_sha256": "ae40213fdf8c0b1b29faed65f15c7aa0b5b6f926bbaaf420f6f261f4f82ce9df",
+      "public_sha256": "ae40213fdf8c0b1b29faed65f15c7aa0b5b6f926bbaaf420f6f261f4f82ce9df",
+      "changed": false
+    },
+    {
+      "source": "第二轮正式实验_20261015/工具/prepare_first.py",
+      "destination": "archive/exploration-history/phase2/tools/prepare_first.py",
+      "original_sha256": "c26632f530fc94e85e5265ca2a32520cf5a4a7bc0cd601f3686eded921305305",
+      "public_sha256": "c26632f530fc94e85e5265ca2a32520cf5a4a7bc0cd601f3686eded921305305",
+      "changed": false
+    },
+    {
+      "source": "第二轮正式实验_20261015/批次/B01/A/任务提示词.md",
+      "destination": "prompts/historical/phase2-batches/B01/A/任务提示词.md",
+      "original_sha256": "acf8eecfc6f7865926fe933ecc32bee27b3d0224ec6a143cfe5b7bfe414b8fef",
+      "public_sha256": "8425f6e899df51f3ae02db146a50ba1ed53648dbe7f13e65c3f012b3a6256af2",
+      "changed": true
+    },
+    {
+      "source": "第二轮正式实验_20261015/批次/B01/B/任务提示词.md",
+      "destination": "prompts/historical/phase2-batches/B01/B/任务提示词.md",
+      "original_sha256": "80d46b43721f4879ed9ce1f6cdd99c25f01fe371e562ab6cb832ccbb0ab4c25f",
+      "public_sha256": "6f167ec140f95eaeca07f9e497a9c579247d1c4d0441af1081a8c68da03d5b54",
+      "changed": true
+    },
+    {
+      "source": "第二轮正式实验_20261015/批次/B01/C/任务提示词.md",
+      "destination": "prompts/historical/phase2-batches/B01/C/任务提示词.md",
+      "original_sha256": "4053ad40940bdd66ddc855e4784580429a6d27bc14107c1d189f811e7d4c1180",
+      "public_sha256": "d0e233afa024da45bf64138f6fa777d59f52eee3099be1bce61f588964e62e6e",
+      "changed": true
+    },
+    {
+      "source": "第二轮正式实验_20261015/批次/B02/A/任务提示词.md",
+      "destination": "prompts/historical/phase2-batches/B02/A/任务提示词.md",
+      "original_sha256": "5d63197445ae06cc6c1425a0db141464e5088f1651c04d4b8dfeea28fa8188b4",
+      "public_sha256": "756975b5d5259a1bde7db359a05deac72c622e34f076da0e55ba3513508fa2e5",
+      "changed": true
+    },
+    {
+      "source": "第二轮正式实验_20261015/批次/B02/B/任务提示词.md",
+      "destination": "prompts/historical/phase2-batches/B02/B/任务提示词.md",
+      "original_sha256": "a1eed57411b8187189154be1319be05afe8c5c0eb77160b7c9de8bc4275c5b86",
+      "public_sha256": "a0a08c4b39c16edf30b07920b1c9f269f0db47a48a3bcbb3b6780edfb2c5552a",
+      "changed": true
+    },
+    {
+      "source": "第二轮正式实验_20261015/批次/B02/C/任务提示词.md",
+      "destination": "prompts/historical/phase2-batches/B02/C/任务提示词.md",
+      "original_sha256": "aab1e27bbf433325a8760f066731063cc7329900c056ca468fb586bfe105ea38",
+      "public_sha256": "4715a766e9d89a8b2c00b5f18449768f990835cc07460dc7471cb6582b2a2737",
+      "changed": true
+    },
+    {
+      "source": "第二轮正式实验_20261015/批次/B03/A/任务提示词.md",
+      "destination": "prompts/historical/phase2-batches/B03/A/任务提示词.md",
+      "original_sha256": "2678c077085d82e0f5f2229c26f467d6ad07420dcb730672c24d9b85d0ac7d39",
+      "public_sha256": "96efddea2d2dd9cb9f0cdfbbf971d49727252d60af6db017c53051c77b113277",
+      "changed": true
+    },
+    {
+      "source": "第二轮正式实验_20261015/批次/B03/B/任务提示词.md",
+      "destination": "prompts/historical/phase2-batches/B03/B/任务提示词.md",
+      "original_sha256": "bf6397755f8a315aae9141b346bd59f73bd56f398dd9e8ff925e233baff2fa1b",
+      "public_sha256": "8e8ccb2139150f83c94f77b2f3ddd578d96919f56c654ff946de84fed588edb9",
+      "changed": true
+    },
+    {
+      "source": "第二轮正式实验_20261015/批次/B03/C/任务提示词.md",
+      "destination": "prompts/historical/phase2-batches/B03/C/任务提示词.md",
+      "original_sha256": "f5c8384a4a6a62d3e4fe2500df42b553b46fd47926aae33d1cc7002f65712388",
+      "public_sha256": "e4aaf401675130e9d6d8611badb3d00e629dde01a65029dfca7166422a6d8de7",
+      "changed": true
+    },
+    {
+      "source": "第二轮正式实验_20261015/批次/B04/A/任务提示词.md",
+      "destination": "prompts/historical/phase2-batches/B04/A/任务提示词.md",
+      "original_sha256": "70e6b6b4ab41497bb81ab9efe866126d7332f4ab6ab0456a608046313be3e4fc",
+      "public_sha256": "2154be43240a00807e48241cd59e22bee92b2b4c70d03c592964330180a809bd",
+      "changed": true
+    },
+    {
+      "source": "第二轮正式实验_20261015/批次/B04/B/任务提示词.md",
+      "destination": "prompts/historical/phase2-batches/B04/B/任务提示词.md",
+      "original_sha256": "ca914681c975dc0bf507aa1e1faa73b5e05b7ee96338715b1bc22d0f1b1a9551",
+      "public_sha256": "eca51a71ae3d712eb9708ecc05537d59a6d5132804cc638f8f62f1328b62bdd7",
+      "changed": true
+    },
+    {
+      "source": "第二轮正式实验_20261015/批次/B04/C/任务提示词.md",
+      "destination": "prompts/historical/phase2-batches/B04/C/任务提示词.md",
+      "original_sha256": "1cf6008daed4ff12bcdfe6d7beae65e943d4f5dab3a5f931e4134e4ec4831cf8",
+      "public_sha256": "534f07315219be617f446b3e9984843079e0b722e5ad11b00dccbb2122304205",
+      "changed": true
+    },
+    {
+      "source": "第二轮正式实验_20261015/批次/B05/A/任务提示词.md",
+      "destination": "prompts/historical/phase2-batches/B05/A/任务提示词.md",
+      "original_sha256": "0ab325cbe2a979855082048af7d00a93336526c033945c1282ef33aa8887f1f5",
+      "public_sha256": "21ce8ab5201c6d0f4f41d2ef33a996835979634c7eee004940b22b9ac4881a9f",
+      "changed": true
+    },
+    {
+      "source": "第二轮正式实验_20261015/批次/B05/B/任务提示词.md",
+      "destination": "prompts/historical/phase2-batches/B05/B/任务提示词.md",
+      "original_sha256": "af32f220557252e150bb708e915e0c24924bebb820565800b34d0faec3fd3dfb",
+      "public_sha256": "59e026d35e511ae33af50188daef39dbb59ce03f915799677c6ed1e1a2b7809e",
+      "changed": true
+    },
+    {
+      "source": "第二轮正式实验_20261015/批次/B05/C/任务提示词.md",
+      "destination": "prompts/historical/phase2-batches/B05/C/任务提示词.md",
+      "original_sha256": "e5b9fcd47e5808ad3128083b54bb4f18887b627e1d5234c48b4c25ffe9217b58",
+      "public_sha256": "613bdf0588bbc7417329671a181f9a297e8bb4caf916bdf00ef29e1f54e165f9",
+      "changed": true
+    }
+  ]
+}

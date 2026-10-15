@@ -1,0 +1,14 @@
+[
+  {
+    "id": "N0001",
+    "domain": "工具格式示例",
+    "background": "这是一条展示字段的固定样例，不属于原研究。物品已打包，接收者说今晚在家。",
+    "question": "今晚物品是否交到接收者手中？",
+    "deadline": "当日22:00",
+    "yes_definition": "当日22:00前接收者本人拿到原物",
+    "outcome": 1,
+    "ending": "发送者20:00到场，接收者本人取走原物。",
+    "source_type": "simulated",
+    "source": {"reference": "format example only", "evidence": "固定样例结局"}
+  }
+]
